@@ -7,7 +7,7 @@ creator not responsible for any damage caused
 written in pure c# (w/sockets) and py for client 
 <br /><br />
 instructions:<br /><br />
-mod c# and recompile in vs2022<br />
+run server.exe and pick a listener port<br />
 change py file ip and recompile with [pyinstaller]([url](https://pyinstaller.org/en/stable/))<br />
 <br /><br />
 DO NOT UPLOAD TO VIRUSTOTAL.COM
